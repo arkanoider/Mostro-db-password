@@ -1,0 +1,11 @@
+[package]
+name = "Mostro-Password"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chacha20poly1305 = "0.10.1"
+rand = "0.8"
+argon2 = "0.5.3"
+zeroize = "1.5.0"
+serde = { version = "1.0.215", features = ["derive"] }
